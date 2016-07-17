@@ -107,7 +107,7 @@
         <!--Second View Controller-->
         <scene sceneID="OL9-Ec-SZr">
             <objects>
-                <viewController storyboardIdentifier="target" id="Sjb-Jh-cEH" customClass="SecondViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" id="Sjb-Jh-cEH" customClass="SecondViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="V74-Ng-8gg"/>
                         <viewControllerLayoutGuide type="bottom" id="QTi-2Y-ZqC"/>
@@ -135,7 +135,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="bYH-iY-HEC" kind="unwind" unwindAction="unwind:" id="oYa-Dk-ggv"/>
+                                    <segue destination="jZM-FA-n3Y" kind="unwind" unwindAction="unwind:" id="COv-l7-OLH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -154,7 +154,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G5R-e4-6jc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="bYH-iY-HEC" userLabel="Exit" sceneMemberID="exit"/>
+                <exit id="jZM-FA-n3Y" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1094" y="450"/>
         </scene>

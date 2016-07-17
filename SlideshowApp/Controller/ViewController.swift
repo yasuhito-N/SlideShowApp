@@ -83,11 +83,7 @@ class ViewController: UIViewController {
             }
     
     var y = 0
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        let targetViewController = self.storyboard!.instantiateViewControllerWithIdentifier( "target" ) 
-        self.presentViewController( targetViewController, animated: true, completion: nil)
-    }
-    
+
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
         
         if segue.identifier == "SecondView" {
